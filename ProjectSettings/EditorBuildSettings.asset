@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Introduction.unity
+    guid: 7418f087d3f1d3e49a0a71d98bb28432
+  - enabled: 1
+    path: Assets/Intro_CutScene.unity
+    guid: 573a4f9a8d99646aebd80e769bd8d2a3
+  - enabled: 1
+    path: Assets/desi_speaking.unity
+    guid: 3d7a6b5a3ff0d1547b434bc55b0e49c1
+  - enabled: 1
+    path: Assets/main.unity
+    guid: 0e4c64d67a36def418bc99862f920893
+  - enabled: 1
+    path: Assets/parental_setup.unity
+    guid: 9836c40f99ff34249808cc2d41732fee
+  - enabled: 1
+    path: Assets/parentalsetup.unity
+    guid: a2ad95ebb4fd17a4b8de993fedee5d80
+  - enabled: 1
+    path: Assets/New Scene.unity
+    guid: 11b86ee82fdbc374b9ed86ca7f0e4bb3
+  - enabled: 1
+    path: Assets/parental_setup_orchard 1.unity
+    guid: 9424c918c752a554bb425a0e30b74846
+  - enabled: 1
+    path: Assets/main2.unity
+    guid: 88a408ee142886a49aa15957d5608224
+  - enabled: 0
+    path: 
+    guid: 2f88054799b136846bd3bcd5d7a7c8af
+  - enabled: 1
+    path: Assets/orchard.unity
+    guid: 85f8cd7225d78e24b9f9804833d80a5b
+  - enabled: 1
+    path: Assets/market.unity
+    guid: 4b0676ededaeaba4e89d5a094515a2f9
+  - enabled: 1
+    path: Assets/bridge.unity
+    guid: 6dedfe5416fbf8c4982bd81b0fb95bf6
+  - enabled: 1
+    path: Assets/field.unity
+    guid: ba3b92abd90b0bb439350adac3212d3a
+  - enabled: 1
+    path: Assets/Instructions.unity
+    guid: 8856eeea5cc589f4c839132bc7eb19e9
