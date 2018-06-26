@@ -228,6 +228,7 @@ public class Inventory : MonoBehaviour
         }
         else
         {
+
             GameObject panel = (GameObject)Instantiate(Resources.Load("Prefabs/Panel - Inventory") as GameObject);
             panel.transform.SetParent(GameObject.FindGameObjectWithTag("Canvas").transform, true);
             panel.GetComponent<RectTransform>().localPosition = new Vector3(0, 0, 0);
