@@ -604,14 +604,21 @@ public class DragItem : MonoBehaviour, IDragHandler, IPointerDownHandler, IEndDr
 
             else
             {
-                GameObject dropItem = (GameObject)Instantiate(GetComponent<ItemOnObject>().item.itemModel);
-                dropItem.AddComponent<PickUpItem>();
-                dropItem.GetComponent<PickUpItem>().item = this.gameObject.GetComponent<ItemOnObject>().item;               
-                dropItem.transform.localPosition = GameObject.FindGameObjectWithTag("Player").transform.localPosition;
-                inventory.OnUpdateItemList();
-                if (oldSlot.transform.parent.parent.GetComponent<EquipmentSystem>() != null)
-                    inventory.GetComponent<Inventory>().UnEquipItem1(dropItem.GetComponent<PickUpItem>().item);
-                Destroy(this.gameObject);
+                GameObject firstItemGameObject = this.gameObject;
+              
+               RectTransform firstItemRectTransform = this.gameObject.GetComponent<RectTransform>();
+              firstItemGameObject.transform.SetParent(oldSlot.transform);
+             firstItemRectTransform.localPosition = Vector3.zero;
+
+
+                //      GameObject dropItem = (GameObject)Instantiate(GetComponent<ItemOnObject>().item.itemModel);
+                //      dropItem.AddComponent<PickUpItem>();
+                //      dropItem.GetComponent<PickUpItem>().item = this.gameObject.GetComponent<ItemOnObject>().item;               
+                //      dropItem.transform.localPosition = GameObject.FindGameObjectWithTag("Player").transform.localPosition;
+                //      inventory.OnUpdateItemList();
+                //      if (oldSlot.transform.parent.parent.GetComponent<EquipmentSystem>() != null)
+                //          inventory.GetComponent<Inventory>().UnEquipItem1(dropItem.GetComponent<PickUpItem>().item);
+                //      Destroy(this.gameObject);
 
             }
         }
