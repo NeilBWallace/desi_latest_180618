@@ -300,19 +300,9 @@ public class PlayerInventory : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(inputManagerDatabase.InventoryKeyCode))
-        {
-            if (!inventory.activeSelf)
-            {
+      
                 mainInventory.openInventory();
-            }
-            else
-            {
-                if (toolTip != null)
-                    toolTip.deactivateTooltip();
-                mainInventory.closeInventory();
-            }
-        }
+            
 
         if (Input.GetKeyDown(inputManagerDatabase.CraftSystemKeyCode))
         {
