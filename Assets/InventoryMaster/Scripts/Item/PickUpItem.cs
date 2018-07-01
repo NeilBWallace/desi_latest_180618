@@ -2,7 +2,7 @@
 using System.Collections;
 public class PickUpItem : MonoBehaviour
 {
-    public Item item;
+    public Item_On_Object item;
     private Inventory _inventory;
     private GameObject _player;
     // Use this for initialization

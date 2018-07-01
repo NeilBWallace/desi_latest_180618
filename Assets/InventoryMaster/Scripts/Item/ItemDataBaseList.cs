@@ -6,9 +6,9 @@ public class ItemDataBaseList : ScriptableObject
 {             //The scriptableObject where the Item getting stored which you create(ItemDatabase)
 
     [SerializeField]
-    public List<Item> itemList = new List<Item>();              //List of it
+    public List<Item_On_Object> itemList = new List<Item_On_Object>();              //List of it
 
-    public Item getItemByID(int id)
+    public Item_On_Object getItemByID(int id)
     {
         for (int i = 0; i < itemList.Count; i++)
         {
@@ -18,7 +18,7 @@ public class ItemDataBaseList : ScriptableObject
         return null;
     }
 
-    public Item getItemByName(string name)
+    public Item_On_Object getItemByName(string name)
     {
         for (int i = 0; i < itemList.Count; i++)
         {

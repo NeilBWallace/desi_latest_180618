@@ -24,9 +24,6 @@ EditorBuildSettings:
     path: Assets/parental_setup.unity
     guid: 9836c40f99ff34249808cc2d41732fee
   - enabled: 1
-    path: Assets/parentalsetup.unity
-    guid: a2ad95ebb4fd17a4b8de993fedee5d80
-  - enabled: 1
     path: Assets/New Scene.unity
     guid: 11b86ee82fdbc374b9ed86ca7f0e4bb3
   - enabled: 1
@@ -37,19 +34,38 @@ EditorBuildSettings:
     guid: 88a408ee142886a49aa15957d5608224
   - enabled: 0
     path: 
-    guid: 2f88054799b136846bd3bcd5d7a7c8af
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/orchard.unity
-    guid: 85f8cd7225d78e24b9f9804833d80a5b
+    path: Assets/InventoryMaster/Examples/market.unity
+    guid: 529df924ed0c1b04399a43af52b51151
+  - enabled: 1
+    path: Assets/InventoryMaster/Examples/magic glade.unity
+    guid: c94a1c5cd7367b84ab9b776f1fc41222
+  - enabled: 1
+    path: Assets/magic_glade.unity
+    guid: 50d075e4bdcbba84ab69421979d17c47
+  - enabled: 1
+    path: Assets/InventoryMaster/Examples/bridge.unity
+    guid: 12e5e61b999629c4fb6077e8ca1a1614
+  - enabled: 1
+    path: Assets/InventoryMaster/Examples/Orchard.unity
+    guid: a2f811dfcbbd60744a806d639f42f04e
   - enabled: 1
     path: Assets/market.unity
     guid: 4b0676ededaeaba4e89d5a094515a2f9
   - enabled: 1
+    path: Assets/parentalsetup.unity
+    guid: a2ad95ebb4fd17a4b8de993fedee5d80
+  - enabled: 1
     path: Assets/bridge.unity
     guid: 6dedfe5416fbf8c4982bd81b0fb95bf6
+  - enabled: 1
+    path: Assets/orchard.unity
+    guid: 85f8cd7225d78e24b9f9804833d80a5b
   - enabled: 1
     path: Assets/field.unity
     guid: ba3b92abd90b0bb439350adac3212d3a
   - enabled: 1
     path: Assets/Instructions.unity
     guid: 8856eeea5cc589f4c839132bc7eb19e9
+  m_configObjects: {}

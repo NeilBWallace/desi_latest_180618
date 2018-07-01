@@ -135,7 +135,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Beef
     itemID: 8
-    itemDesc: 
+    itemDesc: beef
     itemIcon: {fileID: 21300000, guid: f7c3dc71b2b6f064c8c5dc3d721d841e, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -250,7 +250,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Chapatti
     itemID: 16
-    itemDesc: 
+    itemDesc: chapatti
     itemIcon: {fileID: 21300000, guid: a70b0835935541f48938475b3e8f0c27, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -262,7 +262,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Cherries
     itemID: 17
-    itemDesc: 
+    itemDesc: cherries
     itemIcon: {fileID: 21300000, guid: 3081d4d09b6cb6147b6c7e8cff429abd, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -274,7 +274,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Chicken Nuggets
     itemID: 18
-    itemDesc: 
+    itemDesc: chicken nuggets
     itemIcon: {fileID: 21300000, guid: 83eacfa566e3ea84c9c6df05440fe35d, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -286,7 +286,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Chips
     itemID: 19
-    itemDesc: 
+    itemDesc: chips
     itemIcon: {fileID: 21300000, guid: 7d58a2038921b1943b534d097ef80655, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -298,7 +298,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Chocolate
     itemID: 20
-    itemDesc: 
+    itemDesc: chocolate
     itemIcon: {fileID: 21300000, guid: 02ec634a61d83f14dbfc1ccddb80ba41, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -325,7 +325,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Crumpet
     itemID: 22
-    itemDesc: 
+    itemDesc: crumpet
     itemIcon: {fileID: 21300000, guid: 25bc5d31f4bb8264fbde5909f6d1341b, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -337,7 +337,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Croissant
     itemID: 23
-    itemDesc: 
+    itemDesc: croissant
     itemIcon: {fileID: 21300000, guid: 1600c9a84183068459c9238baef41ffb, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -377,7 +377,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Fish cake
     itemID: 26
-    itemDesc: 
+    itemDesc: fish cake
     itemIcon: {fileID: 21300000, guid: 942314bf5aee13e468bfbad98f479604, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -389,7 +389,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Fish
     itemID: 27
-    itemDesc: 
+    itemDesc: fish
     itemIcon: {fileID: 21300000, guid: 63d66eaf37cd3f4469760492f408f928, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -401,7 +401,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Eggs
     itemID: 28
-    itemDesc: 
+    itemDesc: eggs
     itemIcon: {fileID: 21300000, guid: ab7ed50464cac89448898765e1bb43fe, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -428,7 +428,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Cheese
     itemID: 30
-    itemDesc: 
+    itemDesc: cheese
     itemIcon: {fileID: 21300060, guid: 37607ec1aab56e349af84a980f685a4b, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -440,7 +440,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Chicken
     itemID: 31
-    itemDesc: 
+    itemDesc: chicken
     itemIcon: {fileID: 21300102, guid: 37607ec1aab56e349af84a980f685a4b, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -452,7 +452,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Crisps
     itemID: 32
-    itemDesc: 
+    itemDesc: crisps
     itemIcon: {fileID: 21300026, guid: 37607ec1aab56e349af84a980f685a4b, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -464,7 +464,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Ice Lolly
     itemID: 33
-    itemDesc: 
+    itemDesc: ice lolly
     itemIcon: {fileID: 21300016, guid: 37607ec1aab56e349af84a980f685a4b, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -476,7 +476,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Ice Cream
     itemID: 34
-    itemDesc: 
+    itemDesc: ice cream
     itemIcon: {fileID: 21300024, guid: 37607ec1aab56e349af84a980f685a4b, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -488,7 +488,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Pizza
     itemID: 35
-    itemDesc: 
+    itemDesc: pizza
     itemIcon: {fileID: 21300030, guid: 37607ec1aab56e349af84a980f685a4b, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -500,7 +500,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Salad
     itemID: 36
-    itemDesc: 
+    itemDesc: salad
     itemIcon: {fileID: 21300036, guid: 37607ec1aab56e349af84a980f685a4b, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -512,7 +512,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Pineapple
     itemID: 37
-    itemDesc: 
+    itemDesc: pineapple
     itemIcon: {fileID: 21300100, guid: 37607ec1aab56e349af84a980f685a4b, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -524,7 +524,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Tomato
     itemID: 38
-    itemDesc: 
+    itemDesc: tomato
     itemIcon: {fileID: 21300046, guid: 37607ec1aab56e349af84a980f685a4b, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -551,7 +551,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Jacket Potato
     itemID: 40
-    itemDesc: 
+    itemDesc: jacket potato
     itemIcon: {fileID: 21300000, guid: d44d9b0573b5e62428c5d5996c4f1291, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -634,7 +634,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Mash
     itemID: 46
-    itemDesc: 
+    itemDesc: mash
     itemIcon: {fileID: 21300000, guid: 12e54b25e5c607c4ab4882c491217cf4, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -646,7 +646,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Meatballs
     itemID: 47
-    itemDesc: 
+    itemDesc: meatballs
     itemIcon: {fileID: 21300000, guid: 6052e877970fc004bbdc8408ef1ddd76, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -658,7 +658,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Meat Kebab
     itemID: 48
-    itemDesc: 
+    itemDesc: meat kebab
     itemIcon: {fileID: 21300000, guid: f6a94c4453b088540bf321f3d78e4ff6, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -698,7 +698,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: New Potatoes
     itemID: 51
-    itemDesc: 
+    itemDesc: new potatoes
     itemIcon: {fileID: 21300000, guid: 82c2536684812184cac7f65e9d0e4d80, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -710,7 +710,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Noodles
     itemID: 52
-    itemDesc: 
+    itemDesc: noodles
     itemIcon: {fileID: 21300000, guid: 47d004b9747242046b0c2979c15142ca, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -735,7 +735,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Naan
     itemID: 54
-    itemDesc: 
+    itemDesc: naan
     itemIcon: {fileID: 21300000, guid: ad52a5b2d4613814ea4deeb1811a7ba5, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -747,7 +747,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Omelette
     itemID: 55
-    itemDesc: 
+    itemDesc: omellete
     itemIcon: {fileID: 21300000, guid: f9064e114a7d9b547b9ae07f4fb669e0, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -773,7 +773,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Oven Chips
     itemID: 57
-    itemDesc: 
+    itemDesc: oven chips
     itemIcon: {fileID: 21300000, guid: 22d4e1734d5313746ab16e0c2c85f005, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -799,7 +799,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Pasta
     itemID: 59
-    itemDesc: 
+    itemDesc: pasta
     itemIcon: {fileID: 21300000, guid: 7b62d9152d6549b4993720f31607b3a0, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -886,7 +886,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Pitta
     itemID: 65
-    itemDesc: 
+    itemDesc: pitta
     itemIcon: {fileID: 21300000, guid: a19d327fc0f3bc145a1e0ed147b8f922, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -911,7 +911,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Porridge
     itemID: 67
-    itemDesc: 
+    itemDesc: porridge
     itemIcon: {fileID: 21300000, guid: 986924cbd03b5714d9840ebd9ceadefd, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -970,7 +970,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Roast Potatoes
     itemID: 71
-    itemDesc: 
+    itemDesc: roast potatoes
     itemIcon: {fileID: 21300000, guid: ad848d42e912d894dbc3de54d422fdf8, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -982,7 +982,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Seeds
     itemID: 72
-    itemDesc: 
+    itemDesc: seeds
     itemIcon: {fileID: 21300000, guid: 061aada31d8bdab4ba521ecd4b482296, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -994,7 +994,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Shreddies
     itemID: 73
-    itemDesc: 
+    itemDesc: shreddies
     itemIcon: {fileID: 21300000, guid: 2258c711e66b21749aed8029ca5df029, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -1006,7 +1006,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Soup
     itemID: 74
-    itemDesc: 
+    itemDesc: soup
     itemIcon: {fileID: 21300000, guid: 5c43d1641089c6043b7dd359a5599886, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -1018,7 +1018,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Spaghetti
     itemID: 75
-    itemDesc: 
+    itemDesc: spaghetti
     itemIcon: {fileID: 21300000, guid: 236ca9316796f0945a7845c8abefe743, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -1074,7 +1074,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: sweets
     itemID: 79
-    itemDesc: 
+    itemDesc: sweets
     itemIcon: {fileID: 21300000, guid: c660c52adbc4a7444b670f3bb5eef83a, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -1086,7 +1086,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Toast
     itemID: 80
-    itemDesc: 
+    itemDesc: ' is really nice'
     itemIcon: {fileID: 21300000, guid: 54f21d2e229088b4e8794b7b0bccaba0, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -1113,7 +1113,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Turkey
     itemID: 82
-    itemDesc: 
+    itemDesc: turkey
     itemIcon: {fileID: 21300000, guid: d9f38c75614596746a2106f418e0551f, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -1125,7 +1125,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Weetabix
     itemID: 83
-    itemDesc: 
+    itemDesc: Weetabix
     itemIcon: {fileID: 21300000, guid: 9741e7d47acf47d459b01dba9b3f528f, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -1137,7 +1137,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Wholemeal bread
     itemID: 84
-    itemDesc: 
+    itemDesc: Wholemeal bread
     itemIcon: {fileID: 21300000, guid: 2247b1ba1df797b4fa185d9004e2f678, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -1149,7 +1149,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Wrap
     itemID: 85
-    itemDesc: 
+    itemDesc: wrap
     itemIcon: {fileID: 21300000, guid: 40dbc6d89a30d5148860833a655bc624, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -1161,7 +1161,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Yam
     itemID: 86
-    itemDesc: 
+    itemDesc: yam
     itemIcon: {fileID: 21300000, guid: dc8c4f260e250ec4ea61ea423c70a428, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -1173,7 +1173,7 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: Yoghurt
     itemID: 87
-    itemDesc: 
+    itemDesc: yoghurt
     itemIcon: {fileID: 21300000, guid: 36220af4ad3d7b444a4047c31d192cd2, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1

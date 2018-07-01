@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 [System.Serializable]
-public class Item
+public class Item_On_Object
 {
     public string itemName;                                     //itemName of the item
     public int itemID;                                          //itemID of the item
@@ -20,9 +20,9 @@ public class Item
     [SerializeField]
     public List<ItemAttribute> itemAttributes = new List<ItemAttribute>();    
     
-    public Item(){}
+    public Item_On_Object(){}
 
-    public Item(string name, int id, string desc, Sprite icon, GameObject model, int maxStack, ItemType type, string sendmessagetext, List<ItemAttribute> itemAttributes)                 //function to create a instance of the Item
+    public Item_On_Object(string name, int id, string desc, Sprite icon, GameObject model, int maxStack, ItemType type, string sendmessagetext, List<ItemAttribute> itemAttributes)                 //function to create a instance of the Item
     {
         itemName = name;
         itemID = id;
@@ -34,9 +34,9 @@ public class Item
         this.itemAttributes = itemAttributes;
     }
 
-    public Item getCopy()
+    public Item_On_Object getCopy()
     {
-        return (Item)this.MemberwiseClone();        
+        return (Item_On_Object)this.MemberwiseClone();        
     }   
     
     

@@ -8,7 +8,7 @@ using UnityEditor;
 
 public class Tooltip : MonoBehaviour
 {
-    public Item item;
+    public Item_On_Object item;
 
     //GUI
     [SerializeField]

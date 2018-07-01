@@ -5,7 +5,10 @@ using UnityEngine.EventSystems;
 
 public class ItemOnObject : MonoBehaviour                   //Saves the Item in the slot
 {
-    public Item item;                                       //Item 
+    [SerializeField]
+    public string itemname;
+
+    public Item_On_Object item;                                       //Item 
     private Text text;                                      //text for the itemValue
     private Image image;
 
