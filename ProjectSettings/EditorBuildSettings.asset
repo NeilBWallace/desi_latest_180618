@@ -36,14 +36,14 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/InventoryMaster/Examples/market.unity
-    guid: 529df924ed0c1b04399a43af52b51151
+    path: Assets/magic_glade.unity
+    guid: 50d075e4bdcbba84ab69421979d17c47
   - enabled: 1
     path: Assets/InventoryMaster/Examples/magic glade.unity
     guid: c94a1c5cd7367b84ab9b776f1fc41222
   - enabled: 1
-    path: Assets/magic_glade.unity
-    guid: 50d075e4bdcbba84ab69421979d17c47
+    path: Assets/InventoryMaster/Examples/market.unity
+    guid: 529df924ed0c1b04399a43af52b51151
   - enabled: 1
     path: Assets/InventoryMaster/Examples/bridge.unity
     guid: 12e5e61b999629c4fb6077e8ca1a1614
@@ -51,11 +51,11 @@ EditorBuildSettings:
     path: Assets/InventoryMaster/Examples/Orchard.unity
     guid: a2f811dfcbbd60744a806d639f42f04e
   - enabled: 1
-    path: Assets/market.unity
-    guid: 4b0676ededaeaba4e89d5a094515a2f9
-  - enabled: 1
     path: Assets/parentalsetup.unity
     guid: a2ad95ebb4fd17a4b8de993fedee5d80
+  - enabled: 1
+    path: Assets/marketplace.unity
+    guid: 4b0676ededaeaba4e89d5a094515a2f9
   - enabled: 1
     path: Assets/bridge.unity
     guid: 6dedfe5416fbf8c4982bd81b0fb95bf6

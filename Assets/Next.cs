@@ -10,22 +10,22 @@ public class Next : MonoBehaviour {
 
        public void set_description(int index,string v )
     {
-        Debug.Log("Level" + index);
-        int k = SceneManager.GetActiveScene().buildIndex;
-
-        if (k == 8)
+      
+        string k = SceneManager.GetActiveScene().name;
+        Debug.Log("Level" + k);
+        if (k == "market")
         {
             Opening_Values.protein_dairy_description[index] =v;
         }
-        else if (k == 9)
+        else if (k == "magic glade")
         {
             Opening_Values.carbohydrates_description[index] = v;
         }
-        else if (k == 10)
+        else if (k == "bridge")
         {
             Opening_Values.sweets_fats_description[index]= v;
         }
-        else if (k == 11)
+        else if (k == "Orchard")
         {
             Opening_Values.vegetable_fruit_description[index] =v;
         }
@@ -38,21 +38,21 @@ public class Next : MonoBehaviour {
     public void set_name(int index,string v )
     {
         Debug.Log("Level" + index);
-        int k = SceneManager.GetActiveScene().buildIndex;
+        string k = SceneManager.GetActiveScene().name;
 
-        if (k == 8)
+        if (k == "market")
         {
             Opening_Values.protein_dairy_name[index] =v;
         }
-        else if (k == 9)
+        else if (k == "magic glade")
         {
             Opening_Values.carbohydrates_name[index] = v;
         }
-        else if (k == 10)
+        else if (k == "bridge")
         {
             Opening_Values.sweets_fats_name[index]= v;
         }
-        else if (k == 11)
+        else if (k == "Orchard")
         {
             Opening_Values.vegetable_fruit_name[index] =v;
         }
@@ -102,15 +102,30 @@ public class Next : MonoBehaviour {
             item = i.transform.GetChild(4).GetChild(0).GetComponent<ItemOnObject>();
             set_description(4, item.itemname);
         }
+        
+     
 
-        Debug.Log("carb1" + Opening_Values.carbohydrates_description[0]);
-        Debug.Log("carb2" + Opening_Values.carbohydrates_description[1]);
-        Debug.Log("carb3" + Opening_Values.carbohydrates_description[2]);
-        Debug.Log("carb4" + Opening_Values.carbohydrates_description[3]);
-        Debug.Log("carb5" + Opening_Values.carbohydrates_description[4]);
-        int k = SceneManager.GetActiveScene().buildIndex;
 
-        SceneManager.LoadScene(k + 1);
+      string  k = SceneManager.GetActiveScene().name;
+
+        Debug.Log("k" + k);
+        if (k == "market")
+        {
+            SceneManager.LoadScene("marketplace");
+        }
+        if (k == "magic glade")
+        {
+            SceneManager.LoadScene("magic_glade");
+        }
+        if (k == "Orchard")
+        {
+            SceneManager.LoadScene("orchard");
+        }
+        if (k == "bridge")
+        {
+            SceneManager.LoadScene("bridge");
+        }
+
 
         try
         {
