@@ -1550,6 +1550,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e183a0fcf91889441a73da5cab2cf034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemname: 
   item:
     itemName: sweets
     itemID: 79
@@ -2010,7 +2011,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 381, y: -284}
+  m_AnchoredPosition: {x: 523, y: -18}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &340852229
@@ -2238,6 +2239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e183a0fcf91889441a73da5cab2cf034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemname: 
   item:
     itemName: Pizza
     itemID: 35
@@ -3312,6 +3314,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e183a0fcf91889441a73da5cab2cf034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemname: 
   item:
     itemName: Ice Cream
     itemID: 34
@@ -4172,6 +4175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b0a7e74ffd228a4c84f0a6afbbcd20d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  item: {fileID: 0}
 --- !u!224 &749885903
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6077,6 +6081,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e183a0fcf91889441a73da5cab2cf034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemname: 
   item:
     itemName: Chocolate
     itemID: 20
@@ -7837,6 +7842,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e183a0fcf91889441a73da5cab2cf034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemname: 
   item:
     itemName: Ice Lolly
     itemID: 33
@@ -10992,6 +10998,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e183a0fcf91889441a73da5cab2cf034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemname: 
   item:
     itemName: Leather Helmet
     itemID: 1

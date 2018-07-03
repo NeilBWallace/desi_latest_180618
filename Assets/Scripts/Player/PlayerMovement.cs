@@ -37,7 +37,7 @@ namespace CompleteProject
             float v = CrossPlatformInputManager.GetAxisRaw("Vertical");
 
 			if ((h != 0) || (v != 0)) {
-				Debug.Log ("sdf");
+			
 				a.Play ("Desi_stand");
 
 			} else {

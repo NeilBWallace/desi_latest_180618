@@ -123,7 +123,7 @@ public class Next : MonoBehaviour {
         }
         if (k == "bridge")
         {
-            SceneManager.LoadScene("bridge");
+            SceneManager.LoadScene("thebridge");
         }
 
 

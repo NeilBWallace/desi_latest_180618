@@ -68,4 +68,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Instructions.unity
     guid: 8856eeea5cc589f4c839132bc7eb19e9
+  - enabled: 1
+    path: Assets/bridge2.unity
+    guid: 781acd58adf62a247b583fd6f8c08f65
   m_configObjects: {}
