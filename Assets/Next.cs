@@ -12,7 +12,7 @@ public class Next : MonoBehaviour {
     {
       
         string k = SceneManager.GetActiveScene().name;
-        Debug.Log("Level" + k);
+   
         if (k == "market")
         {
             Opening_Values.protein_dairy_description[index] =v;
@@ -61,71 +61,86 @@ public class Next : MonoBehaviour {
     public void NextPage()
     {
         GameObject i;
-        i = GameObject.Find("Slots - Inventory(Clone)");
-   
-
-        if (i.transform.GetChild(0).GetChild(0).childCount > 0)
-        {
-           // Image j = i.transform.GetChild(0).GetChild(0).GetChild(0).GetComponent<Image>();
-            set_name(0, i.transform.GetChild(0).GetChild(0).GetChild(0).GetComponent<Image>().sprite.name);
-            item = i.transform.GetChild(0).GetChild(0).GetComponent<ItemOnObject>(); 
-            set_description(0, item.itemname);
-        }
-        //     Debug.Log ("sfsdf" + j.sprite.name);
-
-        if (i.transform.GetChild(1).GetChild(0).childCount > 0)
-        {
-            set_name(1, i.transform.GetChild(1).GetChild(0).GetChild(0).GetComponent<Image>().sprite.name);
-            item = i.transform.GetChild(1).GetChild(0).GetComponent<ItemOnObject>();
-            set_description(1, item.itemname);
-
-
-        }
-        if (i.transform.GetChild(2).GetChild(0).childCount > 0)
-        {        
-            set_name(2, i.transform.GetChild(2).GetChild(0).GetChild(0).GetComponent<Image>().sprite.name);
-            item = i.transform.GetChild(2).GetChild(0).GetComponent<ItemOnObject>();
-            set_description(2, item.itemname);
-        }
-
-        if (i.transform.GetChild(3).GetChild(0).childCount > 0)
-        {
-            set_name(3, i.transform.GetChild(3).GetChild(0).GetChild(0).GetComponent<Image>().sprite.name);
-
-            item = i.transform.GetChild(3).GetChild(0).GetComponent<ItemOnObject>();
-            set_description(3, item.itemname);
-        }
-
-        if (i.transform.GetChild(4).GetChild(0).childCount > 0)
-        {
-            set_name(4, i.transform.GetChild(4).GetChild(0).GetChild(0).GetComponent<Image>().sprite.name);
-            item = i.transform.GetChild(4).GetChild(0).GetComponent<ItemOnObject>();
-            set_description(4, item.itemname);
-        }
         
-     
+        string n="";
+        int j = 1;
+      
+        i = GameObject.Find("h1");
+        if (i.transform.GetChild(0).childCount > 0)
+        {
+            Debug.Log("sdfsd");
+            n = i.transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite.name;
+            set_name(0, n);
+            set_description(0,n);
+        }
+        else { j = 0; }
+
+        i = GameObject.Find("h2");
+        if (i.transform.GetChild(0).childCount > 0)
+        {
+
+            Debug.Log("sdfsd");
+            n = i.transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite.name;
+            set_name(1,n);
+            set_description(1, n);
+        }
+        else { j = 0; }
+
+        i = GameObject.Find("h3");
+        if (i.transform.GetChild(0).childCount > 0)
+        {
+            Debug.Log("sdfsd");
+            n = i.transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite.name;
+            set_name(2, n);
+            set_description(2, n);
+        }
+        else { j = 0; }
+
+        i = GameObject.Find("h4");
+        if (i.transform.GetChild(0).childCount > 0)
+        {
+            Debug.Log("sdfsd");
+            n = i.transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite.name;
+            set_name(3, n);
+            set_description(3, n);
+        }
+        else { j = 0; }
 
 
-      string  k = SceneManager.GetActiveScene().name;
+        i = GameObject.Find("h5");
+        if (i.transform.GetChild(0).childCount > 0)
+        {
+            Debug.Log("sdfsd");
+            n = i.transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite.name;
+            set_name(4, n);
+            set_description(4, n);
+        }
+        else { j = 0; }
 
-        Debug.Log("k" + k);
-        if (k == "market")
+        Debug.Log("j" + j);
+        if (j == 1)
         {
-            SceneManager.LoadScene("marketplace");
-        }
-        if (k == "magic glade")
-        {
-            SceneManager.LoadScene("magic_glade");
-        }
-        if (k == "Orchard")
-        {
-            SceneManager.LoadScene("orchard");
-        }
-        if (k == "bridge")
-        {
-            SceneManager.LoadScene("thebridge");
-        }
 
+            string k = SceneManager.GetActiveScene().name;
+
+            Debug.Log("k" + k);
+            if (k == "market")
+            {
+                SceneManager.LoadScene("magic glade");
+            }
+            if (k == "magic glade")
+            {
+                SceneManager.LoadScene("Orchard");
+            }
+            if (k == "Orchard")
+            {
+                SceneManager.LoadScene("bridge");
+            }
+            if (k == "bridge")
+            {
+                SceneManager.LoadScene("marketplace");
+            }
+        }
 
         try
         {

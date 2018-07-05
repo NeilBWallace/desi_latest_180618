@@ -12,10 +12,10 @@ public class SplitItem : MonoBehaviour, IPointerDownHandler
 
     void Update()
     {
-        if (Input.GetKeyDown(inputManagerDatabase.SplitItem))                     //if we press right controll the ....
-            pressingButtonToSplit = true;                               //getting changed to true 
-        if (Input.GetKeyUp(inputManagerDatabase.SplitItem))
-            pressingButtonToSplit = false;                              //or false
+   //     if (Input.GetKeyDown(inputManagerDatabase.SplitItem))                     //if we press right controll the ....
+    //        pressingButtonToSplit = true;                               //getting changed to true 
+    //    if (Input.GetKeyUp(inputManagerDatabase.SplitItem))
+    //        pressingButtonToSplit = false;                              //or false
 
     }
 
