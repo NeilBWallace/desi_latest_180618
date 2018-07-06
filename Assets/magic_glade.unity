@@ -8008,6 +8008,121 @@ MonoBehaviour:
     get diabetes and heart disease and helps us poo more easily. They are delicious
     too!"
   food_group: fruits
+--- !u!1001 &1767534164
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 224236178432688180, guid: 2d3c11b684b2b4b4ca5927ae44fba450,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224236178432688180, guid: 2d3c11b684b2b4b4ca5927ae44fba450,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224236178432688180, guid: 2d3c11b684b2b4b4ca5927ae44fba450,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224236178432688180, guid: 2d3c11b684b2b4b4ca5927ae44fba450,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224236178432688180, guid: 2d3c11b684b2b4b4ca5927ae44fba450,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224236178432688180, guid: 2d3c11b684b2b4b4ca5927ae44fba450,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -9.313226e-10
+      objectReference: {fileID: 0}
+    - target: {fileID: 224236178432688180, guid: 2d3c11b684b2b4b4ca5927ae44fba450,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224236178432688180, guid: 2d3c11b684b2b4b4ca5927ae44fba450,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 224236178432688180, guid: 2d3c11b684b2b4b4ca5927ae44fba450,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224236178432688180, guid: 2d3c11b684b2b4b4ca5927ae44fba450,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224236178432688180, guid: 2d3c11b684b2b4b4ca5927ae44fba450,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 224236178432688180, guid: 2d3c11b684b2b4b4ca5927ae44fba450,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 224236178432688180, guid: 2d3c11b684b2b4b4ca5927ae44fba450,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224236178432688180, guid: 2d3c11b684b2b4b4ca5927ae44fba450,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224236178432688180, guid: 2d3c11b684b2b4b4ca5927ae44fba450,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224236178432688180, guid: 2d3c11b684b2b4b4ca5927ae44fba450,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224236178432688180, guid: 2d3c11b684b2b4b4ca5927ae44fba450,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224236178432688180, guid: 2d3c11b684b2b4b4ca5927ae44fba450,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224236178432688180, guid: 2d3c11b684b2b4b4ca5927ae44fba450,
+        type: 2}
+      propertyPath: m_LocalScale.x
+      value: 57412.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 224236178432688180, guid: 2d3c11b684b2b4b4ca5927ae44fba450,
+        type: 2}
+      propertyPath: m_LocalScale.y
+      value: 57412.617
+      objectReference: {fileID: 0}
+    - target: {fileID: 224236178432688180, guid: 2d3c11b684b2b4b4ca5927ae44fba450,
+        type: 2}
+      propertyPath: m_LocalScale.z
+      value: 57412.617
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2d3c11b684b2b4b4ca5927ae44fba450, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1773676081
 GameObject:
   m_ObjectHideFlags: 0
