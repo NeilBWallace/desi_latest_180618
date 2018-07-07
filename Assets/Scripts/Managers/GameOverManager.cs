@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 namespace CompleteProject
 {
@@ -19,21 +20,41 @@ namespace CompleteProject
 
 		void Update ()
 		{
-			if (Application.loadedLevelName == "parental_setup") {
-				if (ScoreManager.score == Opening_Values.foods_chosen) {	
-					Application.LoadLevel (7);
-				} 
-			}else if (ScoreManager.score == 4) {
-				Application.LoadLevel (7);
-			}
 
-			// If the player has run out of health...
-			if(playerHealth.currentHealth <= 0)
-			{
-				// ... tell the animator the game is over.
-				anim.SetTrigger ("GameOver");
-			}
+
+
+            if (ScoreManager.score == 5)
+            {
+               
+
+                    CanvasGroup c = GameObject.Find("Market_Panel").GetComponent<CanvasGroup>();
+                    c.alpha = 1;
+
+                if (Application.loadedLevelName == "marketplace")
+                {
+                    GameObject.Find("Quickly").GetComponent<Text>().text = "Well done. Eating proteins/dairy has helped heal Desi's wings. Are you ready to fly a little?";
+
+                }
+                if (Application.loadedLevelName == "magic_glade")
+                    {
+                        GameObject.Find("Quickly").GetComponent<Text>().text = "Well done. Eating carbohydrates has given Desi strength to fly long distances. Are you ready to fly a little?";
+                    }
+
+                 
+            }
+
+
+                // If the player has run out of health...
+                if (playerHealth.currentHealth <= 0)
+                {
+
+             
+
+                    // ... tell the animator the game is over.
+                    anim.SetTrigger("GameOver");
+                }
+            }
 		}
 	}
-}
+
 
