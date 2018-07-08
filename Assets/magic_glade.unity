@@ -5497,13 +5497,46 @@ Prefab:
       propertyPath: m_RootOrder
       value: 24
       objectReference: {fileID: 0}
-    - target: {fileID: 1934195739847104, guid: 4b0ff59ddbea33d4781bb97a66bae42d, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 218558355859339562, guid: 4b0ff59ddbea33d4781bb97a66bae42d, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 4b0ff59ddbea33d4781bb97a66bae42d, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1274581848 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1934195739847104, guid: 4b0ff59ddbea33d4781bb97a66bae42d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1274581847}
+--- !u!218 &1274581849
+Terrain:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1274581848}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_TerrainData: {fileID: 15600000, guid: 8ee04e1f17f7f5549acabd4c8d8a68c4, type: 2}
+  m_TreeDistance: 5000
+  m_TreeBillboardDistance: 50
+  m_TreeCrossFadeLength: 5
+  m_TreeMaximumFullLODCount: 50
+  m_DetailObjectDistance: 80
+  m_DetailObjectDensity: 1
+  m_HeightmapPixelError: 5
+  m_SplatMapDistance: 1000
+  m_HeightmapMaximumLOD: 0
+  m_CastShadows: 1
+  m_DrawHeightmap: 1
+  m_DrawTreesAndFoliage: 1
+  m_ReflectionProbeUsage: 1
+  m_MaterialType: 0
+  m_LegacySpecular:
+    serializedVersion: 2
+    rgba: 4286545791
+  m_LegacyShininess: 0.078125
+  m_MaterialTemplate: {fileID: 0}
+  m_BakeLightProbesForTrees: 1
+  m_ScaleInLightmap: 1
+  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!1 &1277576378
 GameObject:
   m_ObjectHideFlags: 0

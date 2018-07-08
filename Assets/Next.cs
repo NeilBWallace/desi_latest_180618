@@ -133,9 +133,9 @@ public class Next : MonoBehaviour {
             if (k == "magic glade")
             {
                // SceneManager.LoadScene("magic_glade");
-              SceneManager.LoadScene("Orchard");
+              SceneManager.LoadScene("OrchardSetup");
             }
-            if (k == "Orchard")
+            if (k == "OrchardSetup")
             {
                 SceneManager.LoadScene("bridge");
             }

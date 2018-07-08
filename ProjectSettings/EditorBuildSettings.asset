@@ -27,7 +27,7 @@ EditorBuildSettings:
     path: Assets/New Scene.unity
     guid: 11b86ee82fdbc374b9ed86ca7f0e4bb3
   - enabled: 0
-    path: Assets/parental_setup_orchard 1.unity
+    path: Assets/orchard.unity
     guid: 9424c918c752a554bb425a0e30b74846
   - enabled: 0
     path: Assets/main2.unity
@@ -45,7 +45,7 @@ EditorBuildSettings:
     path: Assets/InventoryMaster/Examples/bridge.unity
     guid: 12e5e61b999629c4fb6077e8ca1a1614
   - enabled: 1
-    path: Assets/InventoryMaster/Examples/Orchard.unity
+    path: Assets/InventoryMaster/Examples/OrchardSetup.unity
     guid: a2f811dfcbbd60744a806d639f42f04e
   - enabled: 0
     path: Assets/parentalsetup.unity
@@ -60,15 +60,18 @@ EditorBuildSettings:
     path: Assets/thebridge.unity
     guid: 6dedfe5416fbf8c4982bd81b0fb95bf6
   - enabled: 1
-    path: Assets/bridge2.unity
+    path: Assets/bridge3.unity
     guid: 781acd58adf62a247b583fd6f8c08f65
-  - enabled: 1
-    path: Assets/orchard.unity
-    guid: 85f8cd7225d78e24b9f9804833d80a5b
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/field.unity
     guid: ba3b92abd90b0bb439350adac3212d3a
   - enabled: 0
     path: Assets/Instructions.unity
     guid: 8856eeea5cc589f4c839132bc7eb19e9
+  - enabled: 1
+    path: Assets/bridge2.unity
+    guid: a77cf81badfd72c4da41a7060922c272
   m_configObjects: {}

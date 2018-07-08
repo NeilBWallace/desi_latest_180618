@@ -20,10 +20,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4335165995537878}
   - component: {fileID: 114968488811879554}
-  - component: {fileID: 218878515673043170}
-  - component: {fileID: 154926823565030574}
   - component: {fileID: 136888121339826132}
   - component: {fileID: 54538479281838164}
+  - component: {fileID: 218558355859339562}
+  - component: {fileID: 154950594081453214}
   m_Layer: 8
   m_Name: Terrain
   m_TagString: Untagged
@@ -83,7 +83,7 @@ CapsuleCollider:
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!154 &154926823565030574
+--- !u!154 &154950594081453214
 TerrainCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -93,7 +93,7 @@ TerrainCollider:
   m_Enabled: 1
   m_TerrainData: {fileID: 15600000, guid: 8ee04e1f17f7f5549acabd4c8d8a68c4, type: 2}
   m_EnableTreeColliders: 1
---- !u!218 &218878515673043170
+--- !u!218 &218558355859339562
 Terrain:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -122,5 +122,5 @@ Terrain:
   m_LegacyShininess: 0.078125
   m_MaterialTemplate: {fileID: 0}
   m_BakeLightProbesForTrees: 1
-  m_ScaleInLightmap: 0.0512
+  m_ScaleInLightmap: 1
   m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}

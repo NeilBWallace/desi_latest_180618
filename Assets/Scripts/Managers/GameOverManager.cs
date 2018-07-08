@@ -30,6 +30,16 @@ namespace CompleteProject
                 CanvasGroup c = GameObject.Find("Market_Panel").GetComponent<CanvasGroup>();
                 c.alpha = 1;
 
+
+                if (Application.loadedLevelName == "bridge2")
+                {
+                    GameObject.Find("Quickly").GetComponent<Text>().text = "Well done. You have found 5 sweets/fats. The crazy Troll lets you pass over the bridge. I wonder where you will go next!?";
+
+                }
+
+
+
+
                 if (Application.loadedLevelName == "marketplace")
                 {
                     GameObject.Find("Quickly").GetComponent<Text>().text = "Well done. Eating proteins/dairy has helped heal Desi's wings. Are you ready to fly a little?";
