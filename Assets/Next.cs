@@ -126,14 +126,14 @@ public class Next : MonoBehaviour {
             Debug.Log("k" + k);
             if (k == "market")
             {
-             //   SceneManager.LoadScene("marketplace");
+           //   SceneManager.LoadScene("marketplace");
 
-                SceneManager.LoadScene("magic glade");
+               SceneManager.LoadScene("magic glade");
             }
             if (k == "magic glade")
             {
-                SceneManager.LoadScene("magic_glade");
-             //   SceneManager.LoadScene("Orchard");
+               // SceneManager.LoadScene("magic_glade");
+              SceneManager.LoadScene("Orchard");
             }
             if (k == "Orchard")
             {
