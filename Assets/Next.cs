@@ -25,7 +25,7 @@ public class Next : MonoBehaviour {
         {
             Opening_Values.sweets_fats_description[index]= v;
         }
-        else if (k == "Orchard")
+        else if (k == "OrchardSetup")
         {
             Opening_Values.vegetable_fruit_description[index] =v;
         }
@@ -52,7 +52,7 @@ public class Next : MonoBehaviour {
         {
             Opening_Values.sweets_fats_name[index]= v;
         }
-        else if (k == "Orchard")
+        else if (k == "OrchardSetup")
         {
             Opening_Values.vegetable_fruit_name[index] =v;
         }
@@ -132,16 +132,18 @@ public class Next : MonoBehaviour {
             }
             if (k == "magic glade")
             {
-               // SceneManager.LoadScene("magic_glade");
-              SceneManager.LoadScene("OrchardSetup");
+              // SceneManager.LoadScene("magic_glade");
+            SceneManager.LoadScene("OrchardSetup");
             }
             if (k == "OrchardSetup")
             {
-                SceneManager.LoadScene("bridge");
+            SceneManager.LoadScene("bridge");
+
+           //     SceneManager.LoadScene("orchard");
             }
             if (k == "bridge")
             {
-                SceneManager.LoadScene("marketplace");
+                SceneManager.LoadScene("Intro_CutScene");
             }
         }
 

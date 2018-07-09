@@ -19,10 +19,10 @@ public class PlaySnow : MonoBehaviour {
 	{   
 
 		yield return new WaitForSeconds(65);
-		//fx_Snow.SetActive (false);
+        //fx_Snow.SetActive (false);
 
-		SceneManager.LoadScene (0);
-	}
+        SceneManager.LoadScene("marketplace");
+    }
 
 	IEnumerator Example()
 	{   

@@ -50,7 +50,10 @@ namespace CompleteProject
                     GameObject.Find("Quickly").GetComponent<Text>().text = "Well done. Eating carbohydrates has given Desi strength to fly long distances. Are you ready to fly a little?";
                 }
 
-
+                if (Application.loadedLevelName == "orchard")
+                {
+                    GameObject.Find("Quickly").GetComponent<Text>().text = "Well done. Desi is able to fly home! You have completed your adventure!";
+                }
             }
             if (Application.loadedLevelName != "marketplace")
             {

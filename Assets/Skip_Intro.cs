@@ -9,8 +9,8 @@ public class Skip_Intro : MonoBehaviour {
 		
 	}
 	public void Skip(){
-		SceneManager.LoadScene (0);
-	}
+        SceneManager.LoadScene("marketplace");
+    }
 	// Update is called once per frame
 	void Update () {
 		
