@@ -66,54 +66,70 @@ public class Next : MonoBehaviour {
         int j = 1;
       
         i = GameObject.Find("h1");
-        if (i.transform.GetChild(0).childCount > 0)
+
+        if (i.transform.childCount >0 )
         {
-            Debug.Log("sdfsd");
-            n = i.transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite.name;
-            set_name(0, n);
-            set_description(0,n);
+            if (i.transform.GetChild(0).childCount > 0)
+            {
+                Debug.Log("sdfsd");
+                n = i.transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite.name;
+                set_name(0, n);
+                set_description(0, n);
+            }
         }
         else { j = 0; }
 
         i = GameObject.Find("h2");
-        if (i.transform.GetChild(0).childCount > 0)
+        if (i.transform.childCount > 0)
         {
+            if (i.transform.GetChild(0).childCount > 0)
+            {
 
-            Debug.Log("sdfsd");
-            n = i.transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite.name;
-            set_name(1,n);
-            set_description(1, n);
+                Debug.Log("sdfsd");
+                n = i.transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite.name;
+                set_name(1, n);
+                set_description(1, n);
+            }
         }
         else { j = 0; }
 
         i = GameObject.Find("h3");
-        if (i.transform.GetChild(0).childCount > 0)
+        if (i.transform.childCount > 0)
         {
-            Debug.Log("sdfsd");
-            n = i.transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite.name;
-            set_name(2, n);
-            set_description(2, n);
+            if (i.transform.GetChild(0).childCount > 0)
+            {
+                Debug.Log("sdfsd");
+                n = i.transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite.name;
+                set_name(2, n);
+                set_description(2, n);
+            }
         }
         else { j = 0; }
 
         i = GameObject.Find("h4");
-        if (i.transform.GetChild(0).childCount > 0)
+        if (i.transform.childCount > 0)
         {
-            Debug.Log("sdfsd");
-            n = i.transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite.name;
-            set_name(3, n);
-            set_description(3, n);
+            if (i.transform.GetChild(0).childCount > 0)
+            {
+                Debug.Log("sdfsd");
+                n = i.transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite.name;
+                set_name(3, n);
+                set_description(3, n);
+            }
         }
         else { j = 0; }
 
 
         i = GameObject.Find("h5");
-        if (i.transform.GetChild(0).childCount > 0)
+        if (i.transform.childCount > 0)
         {
-            Debug.Log("sdfsd");
-            n = i.transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite.name;
-            set_name(4, n);
-            set_description(4, n);
+            if (i.transform.GetChild(0).childCount > 0)
+            {
+                Debug.Log("sdfsd");
+                n = i.transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite.name;
+                set_name(4, n);
+                set_description(4, n);
+            }
         }
         else { j = 0; }
 
@@ -153,7 +169,7 @@ public class Next : MonoBehaviour {
         }
         catch(System.Exception e)
         {
-
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
     }

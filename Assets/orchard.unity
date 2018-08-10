@@ -11505,7 +11505,8 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Back
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114723181084193738, guid: 55e93e83ab3473743a6f55a8a7377c21, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 55e93e83ab3473743a6f55a8a7377c21, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &758672844
@@ -12708,7 +12709,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 01f0c3b36f72cc74ab899da108bc9f69, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e698477ccb20175418ee94db5f93cc1f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

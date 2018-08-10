@@ -52,6 +52,9 @@ namespace CompleteProject
 
                 if (Application.loadedLevelName == "orchard")
                 {
+
+                    SceneMan1.finished = 1;
+
                     GameObject.Find("Quickly").GetComponent<Text>().text = "Well done. Desi is able to fly home! You have completed your adventure!";
                 }
             }
