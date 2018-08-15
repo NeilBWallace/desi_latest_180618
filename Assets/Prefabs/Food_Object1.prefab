@@ -47,7 +47,7 @@ Transform:
   m_GameObject: {fileID: 1476161057545636}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 10, z: 10}
-  m_LocalScale: {x: 0.01, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.01, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -231,6 +231,7 @@ MonoBehaviour:
   smartness: 0
   fd: 
   food_group: 
+  food_name: 
 --- !u!114 &114765522063373926
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -273,6 +274,7 @@ MonoBehaviour:
   smartness: 0
   fd: 
   food_group: 
+  food_name: 
 --- !u!114 &114943286457293302
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -25,7 +25,7 @@ namespace CompleteProject
 
             if (ScoreManager.score == 5)
             {
-
+               
 
                 CanvasGroup c = GameObject.Find("Market_Panel").GetComponent<CanvasGroup>();
                 c.alpha = 1;

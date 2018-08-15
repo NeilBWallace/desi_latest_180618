@@ -398,7 +398,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300030, guid: 37607ec1aab56e349af84a980f685a4b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0f64aca1f69c71c4f8de81916ee2f33a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1248,7 +1248,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300016, guid: 37607ec1aab56e349af84a980f685a4b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4e787a5aaae06a9498faf37392d29924, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2330,7 +2330,7 @@ MonoBehaviour:
     itemName: Pizza
     itemID: 35
     itemDesc: 
-    itemIcon: {fileID: 21300030, guid: 37607ec1aab56e349af84a980f685a4b, type: 3}
+    itemIcon: {fileID: 21300000, guid: 0f64aca1f69c71c4f8de81916ee2f33a, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
     itemType: 0
@@ -3499,7 +3499,7 @@ MonoBehaviour:
     itemName: Ice Cream
     itemID: 34
     itemDesc: 
-    itemIcon: {fileID: 21300024, guid: 37607ec1aab56e349af84a980f685a4b, type: 3}
+    itemIcon: {fileID: 21300000, guid: e4309b7c0b513ed4d886c4384c5e0acd, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
     itemType: 0
@@ -8039,7 +8039,7 @@ MonoBehaviour:
     itemName: Ice Lolly
     itemID: 33
     itemDesc: 
-    itemIcon: {fileID: 21300016, guid: 37607ec1aab56e349af84a980f685a4b, type: 3}
+    itemIcon: {fileID: 21300000, guid: 4e787a5aaae06a9498faf37392d29924, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
     itemType: 0
@@ -11609,7 +11609,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300024, guid: 37607ec1aab56e349af84a980f685a4b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e4309b7c0b513ed4d886c4384c5e0acd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

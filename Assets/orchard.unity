@@ -1223,7 +1223,7 @@ GameObject:
   - component: {fileID: 72376672}
   - component: {fileID: 72376671}
   m_Layer: 5
-  m_Name: Description
+  m_Name: Food_Description
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3537,7 +3537,7 @@ GameObject:
   - component: {fileID: 225730002}
   - component: {fileID: 225730001}
   m_Layer: 5
-  m_Name: title
+  m_Name: Food_Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3558,7 +3558,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 18, y: 257}
+  m_AnchoredPosition: {x: -10, y: 257}
   m_SizeDelta: {x: 300, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &225730001
@@ -5675,6 +5675,7 @@ MonoBehaviour:
   fd: 'Bananas are  packed with carbohydrates for energy and  potassium for a health
     heart and help prevent anxiety or stress '
   food_group: Banana
+  food_name: 
 --- !u!4 &327487361
 Transform:
   m_ObjectHideFlags: 0
@@ -11504,6 +11505,15 @@ Prefab:
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Back
+      objectReference: {fileID: 0}
+    - target: {fileID: 1487423321272658, guid: 55e93e83ab3473743a6f55a8a7377c21, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224115833492763832, guid: 55e93e83ab3473743a6f55a8a7377c21,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 110
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114723181084193738, guid: 55e93e83ab3473743a6f55a8a7377c21, type: 2}
@@ -18076,7 +18086,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000030517578, y: -0.000015258789}
+  m_AnchoredPosition: {x: -257, y: -0.000015258789}
   m_SizeDelta: {x: 776, y: 650}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1269098169
@@ -23942,6 +23952,7 @@ MonoBehaviour:
   fd: 'Bananas are  packed with carbohydrates for energy and  potassium for a health
     heart and help prevent anxiety or stress '
   food_group: Banana
+  food_name: 
 --- !u!82 &1691690398
 AudioSource:
   m_ObjectHideFlags: 0
@@ -25332,6 +25343,7 @@ MonoBehaviour:
     get diabetes and heart disease and helps us poo more easily. They are delicious
     too!"
   food_group: fruits
+  food_name: 
 --- !u!1001 &1761650284
 Prefab:
   m_ObjectHideFlags: 0
@@ -26220,7 +26232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPos: {fileID: 56709929}
-  spawnee: {fileID: 1476161057545636, guid: 5bfb745f427eb414ba2a33ffb5e0b372, type: 2}
+  spawnee: {fileID: 1476161057545636, guid: a9b5c8b2e48abfb46ad76891ba4dc2f6, type: 2}
   g: {fileID: 0}
   spawnLocations: []
   x: 0
@@ -27256,6 +27268,7 @@ MonoBehaviour:
     get diabetes and heart disease and helps us poo more easily. They are delicious
     too!"
   food_group: Fruit
+  food_name: 
 --- !u!82 &1854019374
 AudioSource:
   m_ObjectHideFlags: 0
@@ -28634,6 +28647,7 @@ MonoBehaviour:
     get diabetes and heart disease and helps us poo more easily. They are delicious
     too!"
   food_group: Fruits
+  food_name: 
 --- !u!1 &1929279454
 GameObject:
   m_ObjectHideFlags: 0

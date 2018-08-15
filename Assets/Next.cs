@@ -153,7 +153,15 @@ public class Next : MonoBehaviour {
             }
             if (k == "OrchardSetup")
             {
-            SceneManager.LoadScene("bridge");
+                if (SceneMan.shortgame_orchard == 1)
+                {
+                  //Play short orchard scene  
+                    SceneManager.LoadScene("Orchard");
+                }
+                else
+                {
+                    SceneManager.LoadScene("bridge");
+                }
 
            //     SceneManager.LoadScene("orchard");
             }
