@@ -7,8 +7,12 @@ public class Back : MonoBehaviour {
 
   public   void GoBack()
     {
-        CanvasGroup c = GameObject.Find("Quickly").GetComponent<CanvasGroup>();
+        //Hide Food canvas and Startup panels
+        CanvasGroup c = GameObject.Find("Food_Panel").GetComponent<CanvasGroup>();
         c.alpha = 0;
+        //   c = GameObject.Find("Startup").GetComponent<CanvasGroup>();
+        //     c.alpha = 0;
+        Destroy(GameObject.Find("Market_Panel"));
     }
 	// Use this for initialization
 	void Start () {

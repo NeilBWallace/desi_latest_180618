@@ -7040,7 +7040,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'FOODBANK Scene 4: Bridge Sweets/Fats'
+  m_Text: 'FOODBANK Scene 3: Bridge Sweets/Fats'
 --- !u!114 &1280180787
 MonoBehaviour:
   m_ObjectHideFlags: 0

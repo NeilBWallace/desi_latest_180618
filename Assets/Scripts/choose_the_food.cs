@@ -84,7 +84,7 @@ public class choose_the_food : MonoBehaviour {
 	//		rend.material.color = Color.green;
 	//		chosen++;
 //
-		CanvasGroup d =GameObject.Find("Food_Canvas").GetComponent<CanvasGroup> ();
+		CanvasGroup d =GameObject.Find("Food_Panel").GetComponent<CanvasGroup> ();
 		d.alpha = 1;
 
 		CanvasGroup c =GameObject.Find("rb").GetComponent<CanvasGroup> ();

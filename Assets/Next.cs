@@ -13,15 +13,15 @@ public class Next : MonoBehaviour {
       
         string k = SceneManager.GetActiveScene().name;
    
-        if (k == "market")
+        if (k == "MarketSetup")
         {
             Opening_Values.protein_dairy_description[index] =v;
         }
-        else if (k == "magic glade")
+        else if (k == "MagicGladeSetup")
         {
             Opening_Values.carbohydrates_description[index] = v;
         }
-        else if (k == "bridge")
+        else if (k == "BridgeSetup")
         {
             Opening_Values.sweets_fats_description[index]= v;
         }
@@ -40,15 +40,15 @@ public class Next : MonoBehaviour {
         Debug.Log("Level" + index);
         string k = SceneManager.GetActiveScene().name;
 
-        if (k == "market")
+        if (k == "MarketSetup")
         {
             Opening_Values.protein_dairy_name[index] =v;
         }
-        else if (k == "magic glade")
+        else if (k == "MagicGladeSetup")
         {
             Opening_Values.carbohydrates_name[index] = v;
         }
-        else if (k == "bridge")
+        else if (k == "BridgeSetup")
         {
             Opening_Values.sweets_fats_name[index]= v;
         }
@@ -140,17 +140,35 @@ public class Next : MonoBehaviour {
             string k = SceneManager.GetActiveScene().name;
 
             Debug.Log("k" + k);
-            if (k == "market")
+            if (k == "MarketSetup")
             {
-           //   SceneManager.LoadScene("marketplace");
+                if (SceneMan.shortgame_market == 1)
+                {
+                    //Play long game or short
+                    SceneManager.LoadScene("marketplace");
+                }
+                else
+                {
+                    SceneManager.LoadScene("MagicGladeSetup");
+                }
+            }
 
-               SceneManager.LoadScene("magic glade");
-            }
-            if (k == "magic glade")
+            if (k == "MagicGladeSetup")
             {
-           //   SceneManager.LoadScene("magic_glade");
-           SceneManager.LoadScene("OrchardSetup");
+                if (SceneMan.shortgame_magicglade == 1)
+                {
+                    //Play long game or short
+                    SceneManager.LoadScene("magic_glade");
+                }
+                else
+                {
+                    SceneManager.LoadScene("BridgeSetup");
+                }
             }
+
+
+
+
             if (k == "OrchardSetup")
             {
                 if (SceneMan.shortgame_orchard == 1)
@@ -160,15 +178,28 @@ public class Next : MonoBehaviour {
                 }
                 else
                 {
-                    SceneManager.LoadScene("bridge");
+                    SceneManager.LoadScene("Intro_CutScene");
                 }
 
            //     SceneManager.LoadScene("orchard");
             }
-            if (k == "bridge")
+
+         
+
+
+
+            if (k == "BridgeSetup")
             {
-                SceneManager.LoadScene("Intro_CutScene");
-            }
+                if (SceneMan.shortgame_bridge == 1)
+                {
+                    //Play short orchard scene  
+                    SceneManager.LoadScene("bridge2");
+                }
+                else
+                {
+                    SceneManager.LoadScene("OrchardSetup");
+                }
+                }
         }
 
         try
