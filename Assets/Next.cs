@@ -158,7 +158,7 @@ public class Next : MonoBehaviour {
                 if (SceneMan.shortgame_magicglade == 1)
                 {
                     //Play long game or short
-                    SceneManager.LoadScene("magic_glade");
+                SceneManager.LoadScene("magic_glade");
                 }
                 else
                 {
