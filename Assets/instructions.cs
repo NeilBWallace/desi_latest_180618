@@ -11,11 +11,12 @@ public class Instructions : MonoBehaviour {
 	}
 	// Use this for initialization
 	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
+        GameObject.Find("Click").GetComponent<AudioSource>().Play();
+
+    }
+
+    // Update is called once per frame
+    void Update () {
 		
 	}
 }

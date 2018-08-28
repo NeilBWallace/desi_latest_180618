@@ -25,6 +25,8 @@ public class Quiz : MonoBehaviour {
         CanvasGroup d = GameObject.Find("5_no_text").GetComponent<CanvasGroup>();
         d.alpha = 1;
 
+        GameObject.Find("Click").GetComponent<AudioSource>().Play();
+
     }
 
 
@@ -86,6 +88,8 @@ public class Quiz : MonoBehaviour {
 
         CanvasGroup d = GameObject.Find("yes_text").GetComponent<CanvasGroup>();
         d.alpha = 1;
+        GameObject.Find("NotSoGood").GetComponent<AudioSource>().Play();
+
     }
 
     public void fat_no()
@@ -95,6 +99,7 @@ public class Quiz : MonoBehaviour {
         CanvasGroup d = GameObject.Find("no_text").GetComponent<CanvasGroup>();
         d.alpha = 1;
 
+        GameObject.Find("Tada").GetComponent<AudioSource>().Play();
 
         d = GameObject.Find("fat_OK").GetComponent<CanvasGroup>();
         d.alpha = 1;

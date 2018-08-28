@@ -25,12 +25,14 @@ namespace CompleteProject
 
             if (ScoreManager.score == 5)
             {
+
+          
                 Debug.Log("Score" + ScoreManager.score);
 
                 CanvasGroup c = GameObject.Find("End_Panel").GetComponent<CanvasGroup>();
                 c.alpha = 1;
 
-
+          
                 if (Application.loadedLevelName == "bridge2")
                 {
                     GameObject.Find("End_Text").GetComponent<Text>().text = "Well done. You have found 5 sweets/fats. The crazy Troll lets you pass over the bridge. I wonder where you will go next!?";

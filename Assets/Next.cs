@@ -133,13 +133,14 @@ public class Next : MonoBehaviour {
         }
         else { j = 0; }
 
-        Debug.Log("j" + j);
+     
         if (j == 1)
         {
 
             string k = SceneManager.GetActiveScene().name;
 
-            Debug.Log("k" + k);
+            GameObject.Find("Ping").GetComponent<AudioSource>().Play();
+
             if (k == "MarketSetup")
             {
                 if (SceneMan.shortgame_market == 1)
